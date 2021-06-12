@@ -1,7 +1,7 @@
 Source: kms-cmake-utils
 Priority: optional
 Maintainer: Kurento <kurento@googlegroups.com>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper-compat (=13),
  cmake
 Standards-Version: 4.0.0
 Vcs-Git: https://github.com/Kurento/kms-cmake-utils.git
