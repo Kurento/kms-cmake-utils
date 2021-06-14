@@ -3,7 +3,7 @@ Priority: optional
 Maintainer: Kurento <kurento@googlegroups.com>
 Build-Depends:
  cmake,
- debhelper-compat (=13),
+ debhelper-compat (= 13),
 Standards-Version: 4.5.1
 Vcs-Git: https://github.com/Kurento/kms-cmake-utils.git
 Vcs-Browser: https://github.com/Kurento/kms-cmake-utils
