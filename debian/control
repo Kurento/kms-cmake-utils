@@ -24,3 +24,7 @@ Suggests:
  valgrind,
 Description: CMake utilities used when building Kurento
  This package contains custom CMake modules, required to build Kurento.
+ .
+ This package contains modules related to dpkg/common build flags,
+ helpers for glib, helpers for git, helpers for tests, helpers for versions
+ and other helpers.
