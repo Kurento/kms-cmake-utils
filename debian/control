@@ -7,10 +7,10 @@ Standards-Version: 4.0.0
 Vcs-Git: https://github.com/Kurento/kms-cmake-utils.git
 Vcs-Browser: https://github.com/Kurento/kms-cmake-utils
 Homepage: https://kurento.openvidu.io/
+Section: devel
 
 Package: kms-cmake-utils
 Architecture: all
-Section: devel
 Depends: ${shlibs:Depends}, ${misc:Depends},
  cmake,
  pkg-config
