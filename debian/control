@@ -1,8 +1,9 @@
 Source: kms-cmake-utils
 Priority: optional
 Maintainer: Kurento <kurento@googlegroups.com>
-Build-Depends: debhelper-compat (=13),
- cmake
+Build-Depends:
+ cmake,
+ debhelper-compat (=13),
 Standards-Version: 4.0.0
 Vcs-Git: https://github.com/Kurento/kms-cmake-utils.git
 Vcs-Browser: https://github.com/Kurento/kms-cmake-utils
@@ -11,13 +12,15 @@ Section: devel
 
 Package: kms-cmake-utils
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends},
+Depends:
  cmake,
- pkg-config
+ pkg-config,
+ ${misc:Depends},
+ ${shlibs:Depends},
 Recommends:
  dpkg-dev,
- git
+ git,
 Suggests:
- valgrind
+ valgrind,
 Description: Kurento CMake utils
  This package contains custom CMake modules, required to build Kurento.
