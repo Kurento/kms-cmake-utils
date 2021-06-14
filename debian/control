@@ -17,7 +17,6 @@ Depends:
  cmake,
  pkg-config,
  ${misc:Depends},
- ${shlibs:Depends},
 Recommends:
  dpkg-dev,
  git,
