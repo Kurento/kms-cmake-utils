@@ -22,5 +22,5 @@ Recommends:
  git,
 Suggests:
  valgrind,
-Description: Kurento CMake utils
+Description: CMake utilities used when building Kurento
  This package contains custom CMake modules, required to build Kurento.
