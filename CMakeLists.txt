@@ -15,7 +15,7 @@ get_git_version(PROJECT_VERSION 6.16.1-dev)
 message(STATUS "Project version: ${PROJECT_NAME}-${PROJECT_VERSION}")
 
 set(CMAKE_MODULES_INSTALL_DIR
-  share/cmake-${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION}/Modules
+  share/cmake/KurentoHelpers
   CACHE STRING
   "Destination (relative to CMAKE_INSTALL_PREFIX) for CMake module files"
 )
@@ -40,7 +40,7 @@ foreach(DIST_FILE ${DIST_FILES})
 endforeach()
 
 install(
-  FILES "${CMAKE_CURRENT_BINARY_DIR}/FindKurentoHelpers.cmake"
+  FILES "${CMAKE_CURRENT_BINARY_DIR}/FindKurentoHelpers.cmake" KurentoHelpersConfig.cmake
   DESTINATION ${CMAKE_MODULES_INSTALL_DIR}
 )
 
